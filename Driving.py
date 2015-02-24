@@ -12,7 +12,7 @@
 
 
 def main():
-  print("This program calculates how many miles you drove, the MPG, and the cost per mile to operate your vehicle.")
+    print("This program calculates how many miles you drove, the MPG, and the cost per mile to operate your vehicle.")
     initial = eval(input("Enter your initial odometer reading: "))
     final = eval(input("Enter your final odometer reading: "))
     gallons = eval(input("Enter the number of gallons used: "))
