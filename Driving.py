@@ -4,15 +4,15 @@
 # Lab Section: 10
 # Description: This program calculates the total miles driven, the mileage in
 #      miles per gallon, and the dollar cost per mile.
+############### Use in python 3 ###################
 
 # def main() calculates the total miles driven by subtracting the initial
 #      number of miles from the final number of miles. Then, it calculates
 #      the mileage by dividing the total miles driven by the number of gallons
 #      used. Finally, it calculates the cost per mile driven.
-
-
+print("This program calculates how many miles you drove, the MPG, and the cost per mile to operate your vehicle.")
 def main():
-    print("This program calculates how many miles you drove, the MPG, and the cost per mile to operate your vehicle.")
+
     initial = eval(input("Enter your initial odometer reading: "))
     final = eval(input("Enter your final odometer reading: "))
     gallons = eval(input("Enter the number of gallons used: "))
